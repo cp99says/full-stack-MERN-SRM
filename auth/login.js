@@ -46,8 +46,7 @@ exports.login = async (req, res) => {
       if (`${config.jwt_secret}` === "undefined") {
         return res.json({
           status: "development failure",
-          message:
-            "being a nodejs developer, you should be very well aware of the procedure to setup an enviornment",
+          message: "environment not se properly",
         });
       }
       var decoded_values = jwt.decode(token, `${config.jwt_secret}`);

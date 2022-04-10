@@ -4,7 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "export NODE_ENV=development&& nodemon server.js",
+    "dev_win": "set NODE_ENV=development&& nodemon server.js",
+    "test": "export NODE_ENV=test&& nodemon server.js",
+    "test_win": "set NODE_ENV=test&& nodemon server.js",
+    "prod": "export NODE_ENV=production&& nodemon server.js",
+    "prod_win": "set NODE_ENV=production&& nodemon server.js"
   },
   "repository": {
     "type": "git",
