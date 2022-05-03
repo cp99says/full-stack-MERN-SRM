@@ -4,9 +4,8 @@ const cors = require("cors");
 const mongoose = require("mongoose");
 const routes = require("./routes/routes");
 require("dotenv/config");
-// var string =
-//   "mongodb+srv://cp99says:cp99says@cluster0.ethe1.mongodb.net/hotel_booking?retryWrites=true&w=majority";
-mongoose.connect(`mongodb://localhost:27017/hotel-booking`).then(
+
+mongoose.connect(`${process.env.mongo_string}`).then(
   () => {
     console.log(`connected to mongoDB compass`);
     app.listen(port, () => {
