@@ -23,6 +23,8 @@
   },
   "homepage": "https://github.com/cp99says/full-stack-MERN-SRM#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
+    "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
     "express": "^4.17.3",
@@ -30,6 +32,7 @@
     "moment": "^2.29.2",
     "mongoose": "^6.2.10",
     "multer-s3": "^2.10.0",
+    "nanoid": "^3.3.3",
     "uuidv4": "^6.2.13"
   }
 }

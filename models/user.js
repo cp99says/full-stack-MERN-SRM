@@ -18,21 +18,15 @@ const schema = mongoose.Schema({
     unique: true,
   },
   contact_number: {
-    type: String,
+    type: Number,
     unique: true,
   },
   password: {
     type: String,
   },
-  account_verified: { type: Boolean, default: false },
-
   registered_on: {
     type: String,
   },
-  role: {
-    type: String,
-  },
-  creation_source: { type: String },
   gender: { type: String },
 });
 
