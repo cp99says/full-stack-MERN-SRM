@@ -1,0 +1,32 @@
+.square {
+    /* background-color: #ADF3FF; */
+   /* background-color:#A9ABAB ; */
+   background-color: #000000;
+    width: 22vw;
+    height: 22vw;
+    border-radius: 25px;
+    padding-right: 20px;
+    padding-left: 13px;
+    padding-bottom: 20px;
+    opacity: 0.6; 
+}
+
+.bg-modal-booking{
+    width:100%;
+    height:100%;
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    top:0;
+    right:0;
+    display:flex;
+    justify-content: center;
+    align-items:center ;
+    display:none;
+}
+
+.modal-content-booking{
+    width:400px;
+    height: 400px;
+    background-color: #000000;
+    position: relative;
+}
