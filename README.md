@@ -11,8 +11,6 @@ The objective of the project was to develop a Full Stack Application for Hotel B
 4. Run 'npm start'.
 5. UI will load on localhost:3000
 
-# 
-
 # Output
 
 ![](Images/login.png)
